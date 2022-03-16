@@ -11,7 +11,7 @@
             <p class="card-text">
               {{ product.description }}
             </p>
-            <router-link :to="`/${product.id}`" class="btn btn-primary">去商品</router-link>
+            <router-link :to="`/product/${product.id}`" class="btn btn-primary">去商品</router-link>
             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
         </div>
